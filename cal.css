@@ -1,0 +1,17 @@
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+    
+    
+}
+.table-container{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    text-align: center;
+}
+.table-container td{
+    text-align: center;
+}

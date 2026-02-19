@@ -1,0 +1,19 @@
+
+
+.red{
+    color: orange;
+    text-align: center;
+}
+.card{
+    background-color: aqua;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 3px solid black;
+   
+}
+.con{
+    text-align: center;
+    position:relative;
+    top: 3rem;
+}
