@@ -14,12 +14,13 @@ const netCredit = document.getElementById("hours-4");
 const netLetter = document.getElementById("Grade-D");
 const netPoint = document.getElementById("Grade-4");
 
-const gradeTotal = document.getElementById("total");
+const creditTotal = document.getElementById("Credit-total");
+const pointTotal = document.getElementById("point-total");
 
-managementCredit.textContent = 3;
-systemCredit.textContent = 3;
-webCredit.textContent = 3;
-netCredit.textContent = 3;
+const result1 = managementCredit.textContent = 3;
+const result2 = systemCredit.textContent = 3;
+const result3 = webCredit.textContent = 3;
+const result4 = netCredit.textContent = 3;
 
 const gradePoint = 10.5;
 managementPoint.textContent = gradePoint;
@@ -119,3 +120,9 @@ if (networkPoint === 10.5) {
 } else {
   netLetter.textContent = "invalid";
 }
+
+const result = gradePoint + devPoint + systemPoint + networkPoint;
+pointTotal.textContent = result;
+
+const creditHours = result1 + result2+result3+result4;
+creditTotal.textContent = creditHours;
